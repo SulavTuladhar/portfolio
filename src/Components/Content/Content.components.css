@@ -1,0 +1,58 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.project-description-right{
+    margin-left: -10vw;
+    z-index: 1000;
+    height: 24vh;
+    width: 26vw;
+    padding-top: 2vh;    
+    background-color: #282d31;
+    padding-left: 20px;
+}
+.project-description-left{
+    margin-right: -10vw;
+    z-index: 1000;
+    height: 24vh;
+    width: 26vw;
+    padding-top: 2vh;    
+    background-color: #282d31;
+    padding-left: 20px;
+}
+}
+.tech-used{
+    font-size: x-small;
+    color: rgb(187, 184, 184);
+}
+input,
+textarea{
+    border: none;
+    border-bottom: 1px solid #7510f7;
+    outline: none;
+    caret-color: #7510f7;
+    color: #fff;
+}
+label{
+    font-size: small;
+}
+
+/* Buttons */
+.project-btn{
+    border: 1px solid #7510f7;
+    background-color: #212529;
+    color: #fff;
+    height: 6vh;
+    width: 8vw;
+    transition: all 0.3s;
+}
+.submit-btn {
+    border: 1px solid #7510f7;
+    background-color: #212529;
+    color: #fff;
+    height: 8vh;
+    width: 10vw;
+    transition: all 0.3s;
+}
+.submit-btn:hover, 
+.project-btn:hover{
+    background-color: #7510f7;
+}
